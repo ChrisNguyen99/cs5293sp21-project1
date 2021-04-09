@@ -5,7 +5,6 @@ import sys
 import glob
 import spacy
 import main
-import en_core_web_sm
 
 def redact(input, concept, output, stats, names, genders, dates, phones):
     
