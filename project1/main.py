@@ -3,7 +3,6 @@ import tempfile
 import re
 import sys
 import glob
-import numpy
 import spacy
 
 #def main(input, concept, output, stats, names, genders, dates, phones):
