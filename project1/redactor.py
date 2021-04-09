@@ -3,7 +3,6 @@ import tempfile
 import re
 import sys
 import glob
-import numpy
 import spacy
 import main
 
