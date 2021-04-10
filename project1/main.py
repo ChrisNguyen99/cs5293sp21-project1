@@ -5,6 +5,7 @@ import sys
 import glob
 import spacy
 
+#redact names based on person, organization, miscellaneous or location
 def redact_names(txt, file):
     stdoutFlag = False;
     stderrFlag = False;
@@ -38,6 +39,7 @@ def redact_names(txt, file):
             redact.append(" ")
     return "".join(redact)
 
+#redact dates based on date identifier or contains year
 def redact_dates(txt, file):
     stdoutFlag = False;
     stderrFlag = False;
@@ -56,7 +58,7 @@ def redact_dates(txt, file):
             retokenizer.merge(entity)
     for token in doc:
         #print(token.text, token.ent_type_)
-        if token.ent_type_ == 'DATE' or re.search('^19', token.text) != None:
+        if token.ent_type_ == 'DATE' or re.search('^19', token.text) != None or re.search('^20', token.text) != None:
             if stdoutFlag:
                 print(token.text + "|" + "DATE" + "\n")
             elif stderrFlag:
@@ -71,6 +73,7 @@ def redact_dates(txt, file):
             redact.append(" ")
     return "".join(redact)
 
+#redact gender based on list of pronouns and gendered words
 def redact_gender(txt, file):
     stdoutFlag = False;
     stderrFlag = False;
@@ -105,6 +108,7 @@ def redact_gender(txt, file):
             redact.append(" ")
     return "".join(redact)
 
+#redact phone numbers with or without dashes
 def redact_phones(txt, file):
     stdoutFlag = False;
     stderrFlag = False;
@@ -139,6 +143,7 @@ def redact_phones(txt, file):
             redact.append(" ")
     return "".join(redact)
 
+#redact concept sentences bsaed on score
 def redact_concept(txt, concept, file):
     stdoutFlag = False;
     stderrFlag = False;
@@ -171,11 +176,9 @@ def redact_concept(txt, concept, file):
             sentence = ""
             sentence_offsets = []
             flag = False
-            #sentence_offsets = []
+
         sentence + token.text
-        #sentence + " "
-        #sentence_offsets.append(token.offset)
-        #print(token.text, token.ent_type_)
+
         if token.similarity(con) > .6:
             if stdoutFlag:
                 print(token.text + "|" + "CONCEPT" + "\n")
@@ -184,7 +187,6 @@ def redact_concept(txt, concept, file):
             else:
                 stat.write(token.text + "|" + "CONCEPT" + "\n")
 
-            #for num in range(len(sentence_offsets)):
             flag = True
             sentence_offsets.append(token.text)
             sentence_offsets.append(" ")
