@@ -12,6 +12,7 @@ def redact(input, concept, output, stats, names, genders, dates, phones):
     
     files = glob.glob(input)
 
+    #which stat file to write to
     if stats == "stdout":
         print()
     elif stats == "stderr":
