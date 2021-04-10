@@ -1,0 +1,164 @@
+THE|
+EMPIRE|
+STRIKES|
+BACK|
+Lawrence Kasdan 
+
+                                    |PER
+Leigh Brackett|PER
+George Lucas|PER
+EXT|MISC
+GALAXY|MISC
+PLANET HOTH|MISC
+A Star Destroyer|MISC
+Imperial|MISC
+Hoth|PER
+EXT|
+HOTH|MISC
+METEORITE|MISC
+CRATER|
+SNOW PLAIN|MISC
+DAY|ORG
+EXT|ORG
+PLAIN OF HOTH|ORG
+DAY|ORG
+Tauntaun|LOC
+The rider gallops|MISC
+Luke Skywalker|PER
+Luke|PER
+Tauntaun|LOC
+LUKE
+			|MISC
+Echo Seven|MISC
+HAN|
+LUKE
+			|MISC
+HAN|
+LUKE
+			|MISC
+Luke|PER
+LUKE|
+Luke|PER
+Wampa Ice Creature|ORG
+LUKE
+		Aaargh!|MISC
+Luke|PER
+Tauntaun|LOC
+The Wampa Ice Creature|MISC
+Luke|PER
+EXT|MISC
+HOTH|MISC
+REBEL BASE ENTRANCE|MISC
+DAY|ORG
+Tauntaun|LOC
+INT|ORG
+HOTH|MISC
+REBEL BASE|MISC
+MAIN HANGAR DECK|MISC
+Rebel|PER
+Han Solo|PER
+Millennium Falcon|MISC
+R2|MISC
+Millennium Falcon|MISC
+Wookiee|PER
+Chewbacca|PER
+Chewie|MISC
+HAN|
+Chewie!|MISC
+The Wookiee|MISC
+HAN|
+Chewbacca|PER
+Han 
+|PER
+INT|ORG
+HOTH|MISC
+REBEL BASE|MISC
+COMMAND CENTER|MISC
+Rieekan|PER
+Han|MISC
+RIEEKAN|
+HAN|
+You'll|PER
+RIEEKAN|
+HAN|
+RIEEKAN|
+Taking|LOC
+Han|MISC
+HAN|
+I've|PER
+Princess Leia|PER
+Nordic|LOC
+RIEEKAN|
+HAN|
+Jabba the Hut|PER
+RIEEKAN|
+HAN|
+Leia|PER
+Rieekan|PER
+HAN|
+Your Highness|MISC
+LEIA|
+Leia|PER
+HAN|
+Princess|PER
+Han|MISC
+Leia|PER
+his|GENDER
+his|GENDER
+his|GENDER
+he|GENDER
+him|GENDER
+his|GENDER
+his|GENDER
+his|GENDER
+him|GENDER
+him|GENDER
+him|GENDER
+his|GENDER
+him|GENDER
+his|GENDER
+his|GENDER
+his|GENDER
+his|GENDER
+his|GENDER
+his|GENDER
+his|GENDER
+his|GENDER
+his|GENDER
+him|GENDER
+his|GENDER
+her|GENDER
+man|GENDER
+she|GENDER
+him|GENDER
+his|GENDER
+him|GENDER
+GALAXY - PLANET HOTH|PHONE
+ice-|PHONE
+-|PHONE
+-|PHONE
+-|PHONE
+-|PHONE
+-|PHONE
+-|PHONE
+-|PHONE
+eleven-foot|PHONE
+-|PHONE
+-|PHONE
+-|PHONE
+-|PHONE
+-|PHONE
+R2|PHONE
+-|PHONE
+-|PHONE
+-|PHONE
+cap|CONCEPT
+transmitter|CONCEPT
+girl|CONCEPT
+claw|CONCEPT
+figure|CONCEPT
+deck|CONCEPT
+area|CONCEPT
+jacket|CONCEPT
+man|CONCEPT
+fighter|CONCEPT

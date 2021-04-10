@@ -32,20 +32,20 @@ def redact(input, concept, output, stats, names, genders, dates, phones):
         #for entity in doc.ents:
             #print(entity.text, entity.label_)
 
-        redact_doc1 = redact_concept(text, concept, stat)
+        redact_doc1 = main.redact_concept(text, concept, stat)
         #print(redact_doc1)
 
-        redact_doc2 = redact_names(redact_doc1, stat)
+        redact_doc2 = main.redact_names(redact_doc1, stat)
         #print(redact_doc2)
 
-        redact_doc3 = redact_dates(redact_doc2, stat)
+        redact_doc3 = main.redact_dates(redact_doc2, stat)
         #print(redact_doc3)
 
-        redact_doc4 = redact_gender(redact_doc3, stat)
+        redact_doc4 = main.redact_gender(redact_doc3, stat)
         #print(redact_doc4)
 
-        redact_doc5 = redact_phones(redact_doc4, stat)
-        print(redact_doc5)
+        redact_doc5 = main.redact_phones(redact_doc4, stat)
+        #print(redact_doc5)
 
         outfile = open(output + file + ".redacted", "w")
         outfile.write(redact_doc5)
